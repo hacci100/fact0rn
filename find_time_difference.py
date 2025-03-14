@@ -147,8 +147,8 @@ def main():
                 last_processed_block = current_block
 
             
-            # Wait for 5 seconds before checking again
-            time.sleep(5)
+            # Wait for 59 seconds before checking again
+            time.sleep(59)
             
         except Exception as e:
             print(f"Error in main loop: {e}")
